@@ -1,0 +1,203 @@
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* General */
+  height: 100vh;
+  background: linear-gradient(45deg, #190361 0%, #bb00ff 100%);
+  animation: gradient 10s ease infinite;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* Animation */
+  animation: gradient 10s ease infinite;
+  background-size: 200% 200%;
+}
+
+.hide {
+  display: none;
+}
+
+/* Screen 1 */
+.display-type1 {
+  width: 42.8rem;
+  height: 42.4rem;
+
+  background: #ffffff;
+  box-shadow: 0px 2rem 5rem rgba(0, 0, 0, 0.8);
+  border-radius: 0.5rem;
+
+  padding: 4.8rem 6.4rem 6.4rem;
+}
+
+.screen1 h1 {
+  font-family: "Montserrat", sans-serif;
+
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+
+  color: #34355b;
+
+  text-align: center;
+}
+
+.screen1 p {
+  font-family: "DM Sans", sans-serif;
+
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  text-align: center;
+
+  color: #34355b;
+
+  padding-top: 1.4rem;
+}
+
+.screen1 img {
+  padding-top: 2rem;
+}
+
+.screen1 img:hover {
+  cursor: pointer;
+  animation: vibrate .8s linear 0s infinite normal none;
+}
+
+/* Screen 2 */
+.display-type2 {
+  width: 428px;
+  height: 564px;
+
+  background: #ffffff;
+  box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+
+  padding: 4.8rem 6.4rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.screen2 h1 {
+  font-family: "Montserrat", sans-serif;
+
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  text-align: center;
+
+  color: #34355b;
+}
+
+#randomPhrase {
+  /* General */ 
+  font-family: 'Neucha', cursive;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  text-align: center;
+
+  color: #000000;
+
+  background: #e4edf1;
+  box-shadow: 2px 2px 2px rgba(85, 85, 85, 0.5);
+
+  padding: 1rem;
+  margin: 1.7rem auto;
+
+  /* Animation */
+  transform: translateY(17rem) scale(0.1);
+  opacity: 0.7;
+  animation: down-up 1.7s ease forwards;
+}
+
+.screen2 button {
+  /* Button's font */
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  text-align: center;
+  color: #ffffff;
+  padding: 1.6rem;
+  margin-bottom: .5rem;
+  /* Button */
+  background: #ff9500;
+  border-radius: .4rem;
+  border-style: none;
+  width: 18rem;
+  margin: 1.7rem;
+  align-self: center;
+}
+
+.screen2 button:hover {
+  cursor: pointer;
+  transition: background .2s;
+  background: #ff8500;
+}
+
+/* Animations */
+@keyframes vibrate {
+  0% {
+    transform: translate(0);
+  }
+  10% {
+    transform: translate(-2px, -2px);
+  }
+  20% {
+    transform: translate(2px, -2px);
+  }
+  30% {
+    transform: translate(-2px, 2px);
+  }
+  40% {
+    transform: translate(2px, 2px);
+  }
+  50% {
+    transform: translate(-2px, -2px);
+  }
+  60% {
+    transform: translate(2px, -2px);
+  }
+  70% {
+    transform: translate(-2px, 2px);
+  }
+  80% {
+    transform: translate(2px, 2px);
+  }
+  90% {
+    transform: translate(-2px, -2px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
+@keyframes down-up {
+  to {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 0%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
