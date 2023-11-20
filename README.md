@@ -34,7 +34,7 @@ This project was developed with the following technologies:
 
 Developed a fortune cookie page, in which the user can read a random message just with a click.
 
-- To access the finished project, [click here](https://pcbandeira-m.github.io/fortune-cookie/).
+- To access the finished project, [click here]([https://pcbandeira-m.github.io/fortune-cookie/](https://shimmering-centaur-d6823b.netlify.app)).
 
 ## Layout
 
@@ -94,7 +94,7 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 
 Foi desenvolvido um Biscoito da Sorte, no qual o usuário pode ler uma mensagem aleatório apenas com um clique.
 
-- Para acessar o projeto finalizado, [clique aqui](https://pcbandeira-m.github.io/fortune-cookie/).
+- Para acessar o projeto finalizado, [clique aqui]([https://pcbandeira-m.github.io/fortune-cookie/](https://shimmering-centaur-d6823b.netlify.app)).
 
 ## Layout
 
